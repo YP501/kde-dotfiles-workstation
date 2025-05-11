@@ -1,0 +1,9 @@
+[Applications][com.vivaldi.Vivaldi]
+Seen=true
+
+[Applications][org.qbittorrent.qBittorrent]
+Seen=true
+
+[DoNotDisturb]
+WhenScreenSharing=false
+WhenScreensMirrored=false
