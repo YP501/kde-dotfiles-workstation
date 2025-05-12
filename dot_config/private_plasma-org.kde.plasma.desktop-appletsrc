@@ -618,4 +618,4 @@ knownItems=org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.netw
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Fedora-KDE-Desktop-Live-42-1.1.x86_64.iso,0,fd85b5a4-ea54-41dc-af35-edb603374934,desktop:/fedoraKDEprep,0,fd85b5a4-ea54-41dc-af35-edb603374934
+screenMapping=desktop:/fedoraKDEprep,0,fd85b5a4-ea54-41dc-af35-edb603374934,desktop:/Fedora-KDE-Desktop-Live-42-1.1.x86_64.iso,0,fd85b5a4-ea54-41dc-af35-edb603374934
