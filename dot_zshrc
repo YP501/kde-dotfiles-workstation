@@ -130,6 +130,7 @@ source $ZSH/oh-my-zsh.sh
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 alias {home,$USER}='~'
+alias vencord=VencordInstallerCli-Linux
 alias -g -- -h='-h 2>&1 | bat --language=help --style=plain' # bat support for -h
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain' # bat support for --help
 
@@ -143,12 +144,13 @@ alias -g -- --help='--help 2>&1 | bat --language=help --style=plain' # bat suppo
 eza_base_options='-F=always --icons=always --hyperlink --time-style=relative -lh'
 alias l="eza $eza_base_options"
 alias la="eza $eza_base_options -a"
+alias lo="eza $eza_base_options -ao"
 alias lf="eza $eza_base_options -af"
 alias ld="eza $eza_base_options -aD"
 
 # Exporting environment variables
 export BAT_THEME="Catppuccin Mocha"
-export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.spicetify:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.spicetify:$PATH
 export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p -lman'" # for bat support with man
 export FZF_DEFAULT_OPTS=" \
 --ignore-case \
