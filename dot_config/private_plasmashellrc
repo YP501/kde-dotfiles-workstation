@@ -4,9 +4,6 @@
 [KFileDialog Settings]
 listViewIconSize=512
 
-[PlasmaTransientsConfig]
-PreloadWeight=42
-
 [PlasmaViews][Panel 131]
 panelOpacity=2
 

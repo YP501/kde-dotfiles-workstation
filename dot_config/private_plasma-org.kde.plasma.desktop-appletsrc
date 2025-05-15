@@ -21,7 +21,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":[]}
+positions={"1920x1080":["1","17","desktop:/fedoraKDEprep","0","0"]}
+sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/cool.jpg
@@ -93,7 +94,7 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][161][Applets][207][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=70
+PreloadWeight=85
 popupHeight=248
 popupWidth=160
 
@@ -360,7 +361,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][316][Applets][317][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 popupHeight=462
 popupWidth=533
 
@@ -411,7 +412,7 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][316][Applets][321][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=70
+PreloadWeight=75
 popupHeight=248
 popupWidth=160
 
