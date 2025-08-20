@@ -17,4 +17,4 @@ StartInCurrentSessionDir=false
 HistoryMode=1
 
 [Terminal Features]
-BlinkingCursorEnabled=false
+BlinkingCursorEnabled=true

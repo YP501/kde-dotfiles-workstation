@@ -27,6 +27,21 @@
         <entry name="commandsInPanel" type="Bool">
             <default>true</default>
         </entry>
+        <entry name="skipBackwardControlInPanel" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="playPauseControlInPanel" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="skipForwardControlInPanel" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="songTextInPanel" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="iconInPanel" type="Bool">
+            <default>true</default>
+        </entry>
         <entry name="textScrollingSpeed" type="Int">
             <default>3</default>
         </entry>
@@ -35,6 +50,9 @@
         </entry>
         <entry name="textScrollingBehaviour" type="Int">
             <default>0</default>
+        </entry>
+        <entry name="pauseTextScrollingWhileMediaIsNotPlaying" type="Bool">
+            <default>false</default>
         </entry>
         <entry name="useCustomFont" type="Bool">
             <default>false</default>
@@ -68,6 +86,21 @@
         </entry>
         <entry name="songTextAlignment" type="Int">
             <default>2</default>
+        </entry>
+        <entry name="songTextFixedWidth" type="Int">
+            <default>200</default>
+        </entry>
+        <entry name="useSongTextFixedWidth" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="fullViewTextScrollingSpeed" type="Int">
+            <default>3</default>
+        </entry>
+        <entry name="panelIconSizeRatio" type="Double">
+            <default>0.75</default>
+        </entry>
+        <entry name="panelControlsSizeRatio" type="Double">
+            <default>0.75</default>
         </entry>
     </group>
 </kcfg>
