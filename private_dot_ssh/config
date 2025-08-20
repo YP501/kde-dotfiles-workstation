@@ -1,0 +1,11 @@
+Host *
+  AddKeysToAgent yes
+  ControlMaster auto
+  ControlPersist 10m
+
+Host github.com
+  HostName github.com
+  User git
+  IdentitiesOnly yes
+  IdentityFile ~/.ssh/id_ed25519_github
+

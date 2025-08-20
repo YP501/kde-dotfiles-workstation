@@ -1,12 +1,3 @@
-[Applications][com.vivaldi.Vivaldi]
-Seen=true
-
-[Applications][org.fedoraproject.MediaWriter]
-Seen=true
-
-[Applications][org.qbittorrent.qBittorrent]
-Seen=true
-
 [DoNotDisturb]
 WhenFullscreen=false
 WhenScreenSharing=false
