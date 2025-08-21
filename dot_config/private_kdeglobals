@@ -138,7 +138,7 @@ toolBarFont=Roboto,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Theme=Papirus
 
 [KDE]
-LookAndFeelPackage=org.kde.breeze.desktop
+LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
 
 [KFileDialog Settings]
@@ -159,7 +159,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=140
-View Style=Simple
+View Style=Detail
 
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false

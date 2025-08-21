@@ -162,3 +162,5 @@ export FZF_DEFAULT_OPTS=" \
 # Init starship
 eval "$(starship init zsh)"
 eval "$(starship completions zsh)"
+
+export PATH=$PATH:/home/yp/.spicetify

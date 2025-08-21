@@ -31,52 +31,14 @@ launchers=preferred://filemanager,preferred://browser,applications:dev.vencord.V
 [Containments][194][General]
 AppletOrder=197
 
-[Containments][341]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=5ce71c59-0a3e-42f7-81da-ebde22593916
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+[Containments][3][Applets][8][Applets][24]
+plugin=org.kde.plasma.weather
 
-[Containments][341][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][3][Applets][8][Applets][24][Configuration]
+PreloadWeight=42
 
-[Containments][341][General]
-positions={"1920x1080":["1","17"]}
-sortMode=-1
-
-[Containments][341][Wallpaper][org.kde.image][General]
-Image=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/cool.jpg
-PreviewImage=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/cool.jpg
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][342]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=5ce71c59-0a3e-42f7-81da-ebde22593916
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][342][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][342][General]
-positions={"1920x1080":[]}
-
-[Containments][342][Wallpaper][org.kde.image][General]
-Image=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/cool.jpg
-PreviewImage=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/cool.jpg
-SlidePaths=/usr/share/wallpapers/
+[Containments][3][Applets][8][Applets][25][Configuration]
+PreloadWeight=42
 
 [Containments][344]
 activityId=
@@ -291,6 +253,10 @@ PreloadWeight=42
 [Containments][357][Applets][366][Applets][256][Configuration]
 PreloadWeight=42
 
+[Containments][357][Applets][366][Applets][367]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][357][Applets][366][Applets][368][Configuration]
 PreloadWeight=42
 
@@ -317,12 +283,8 @@ PreloadWeight=42
 [Containments][357][Applets][366][Applets][375][Configuration]
 PreloadWeight=42
 
-[Containments][357][Applets][366][Applets][376]
-immutability=1
-plugin=org.kde.plasma.notifications
-
 [Containments][357][Applets][366][Applets][376][Configuration]
-PreloadWeight=100
+PreloadWeight=42
 
 [Containments][357][Applets][366][Applets][377]
 immutability=1
@@ -352,9 +314,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][357][Applets][366][General]
-extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.weather
+extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.kdeconnect
 hiddenItems=org.kde.plasma.mediacontroller,plasmashell_microphone,org.kde.plasma.clipboard
-knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.weather
+knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.weather,org.kde.kdeconnect
 
 [Containments][357][Applets][382]
 immutability=1
@@ -615,6 +577,10 @@ PreloadWeight=42
 [Containments][394][Applets][403][Applets][379][Configuration]
 PreloadWeight=42
 
+[Containments][394][Applets][403][Applets][404]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][394][Applets][403][Applets][405][Configuration]
 PreloadWeight=42
 
@@ -680,9 +646,9 @@ DialogWidth=720
 PreloadWeight=95
 
 [Containments][394][Applets][403][General]
-extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.devicenotifier
+extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.devicenotifier,org.kde.kdeconnect
 hiddenItems=org.kde.plasma.mediacontroller,plasmashell_microphone,org.kde.plasma.clipboard
-knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.weather
+knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.weather,org.kde.kdeconnect
 
 [Containments][394][Applets][417]
 immutability=1
@@ -729,6 +695,42 @@ songTextAlignment=1
 [Containments][394][General]
 AppletOrder=418;396;395;417;397;398;399;400;401;402;403
 
+[Containments][420]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=36f44fb4-fba4-402e-bc27-cd9116f5ee7e
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][420][General]
+positions={"1920x1080":[]}
+
+[Containments][420][Wallpaper][org.kde.image][General]
+Image=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/cool.jpg
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][421]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=36f44fb4-fba4-402e-bc27-cd9116f5ee7e
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][421][General]
+positions={"1920x1080":[]}
+
+[Containments][421][Wallpaper][org.kde.image][General]
+Image=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/cool.jpg
+SlidePaths=/usr/share/wallpapers/
+
 [Containments][9][Applets][24][Configuration]
 PreloadWeight=42
 
@@ -737,4 +739,4 @@ PreloadWeight=42
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:kpn info.txt,0,5ce71c59-0a3e-42f7-81da-ebde22593916,desktop:/fedoraKDEprep,0,fd85b5a4-ea54-41dc-af35-edb603374934,desktop:nixos-minimal-25.05.802674.7848cd8c982f-x86_64-linux.iso,0,5ce71c59-0a3e-42f7-81da-ebde22593916,desktop:/kpn info,0,5ce71c59-0a3e-42f7-81da-ebde22593916
+screenMapping=desktop:kpn info.txt,0,5ce71c59-0a3e-42f7-81da-ebde22593916,desktop:/kpn info.txt,0,36f44fb4-fba4-402e-bc27-cd9116f5ee7e,desktop:/kpn info,0,5ce71c59-0a3e-42f7-81da-ebde22593916,desktop:nixos-minimal-25.05.802674.7848cd8c982f-x86_64-linux.iso,0,5ce71c59-0a3e-42f7-81da-ebde22593916,desktop:/fedoraKDEprep,0,fd85b5a4-ea54-41dc-af35-edb603374934
