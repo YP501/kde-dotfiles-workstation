@@ -1,8 +1,10 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-36f44fb4-fba4-402e-bc27-cd9116f5ee7e=none,none,Switch to activity "Default"
+switch-to-activity-396ed64f-cb1b-4074-a5cd-f4bb1cab7141=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to English (US, alt. intl.)=none,none,Switch keyboard layout to English (US\\, alt. intl.)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
@@ -54,7 +56,7 @@ MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
-Overview=Meta+W,Meta+W,Toggle Overview
+Overview=Meta+W\tMeta+Tab,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Peek at Desktop
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down

@@ -1,6 +1,26 @@
+[Keyboard]
+NumLock=0
+
+[Libinput][1133][16478][Logitech M720 Triathlon]
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+ScrollFactor=2
+
+[Libinput][1133][45077][Logitech M720 Triathlon Multi-Device Mouse]
+PointerAcceleration=0.200
+PointerAccelerationProfile=1
+
+[Libinput][1267][12947][ELAN06FA:00 04F3:3293 Mouse]
+PointerAcceleration=-1.000
+PointerAccelerationProfile=1
+
 [Libinput][1267][12947][ELAN06FA:00 04F3:3293 Touchpad]
+ClickMethod=2
 DisableWhileTyping=false
 NaturalScroll=true
-PointerAcceleration=0.400
+PointerAcceleration=0.200
 PointerAccelerationProfile=1
-ScrollFactor=0.5
+ScrollFactor=0.3
+
+[Mouse]
+cursorTheme=catppuccin-mocha-dark-cursors
